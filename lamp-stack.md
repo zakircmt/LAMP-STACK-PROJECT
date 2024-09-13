@@ -134,7 +134,7 @@ Exit the MySQL shell
 exit
 ```
 
-__5.__ __Run an Interactive script to secure MySQL__
+__4.__ __Run an Interactive script to secure MySQL__
 
 The security script comes pre-installed with mysql. This script removes some insecure settings and lock down access to the database system.
 ```
@@ -145,7 +145,7 @@ sudo mysql_secure_installation
 
 Regardless of whether the VALIDATION PASSWORD PLUGIN is set up, the server will ask to select and confirm a password for MySQL root user.
 
-__6.__ __After changing root user password, log in to MySQL console.__
+__5.__ __After changing root user password, log in to MySQL console.__
 
 A command prompt for password was noticed after running the command below.
 ```
